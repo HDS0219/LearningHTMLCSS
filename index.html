@@ -3,67 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tables</title>
+    <title>Buttons</title>
 </head>
 <body>
     
-    <!-- 
-        <table>: Define uma tabela HTML para exibir dados tabulares.
-        Atributos:
-        - border: Define a largura da borda da tabela.
-        - style: Define o estilo CSS inline para a tabela.
 
-        <tr>: Define uma linha em uma tabela.
-        Atributos:
-        - align: Define o alinhamento do conteúdo das células da linha.
-        - style: Define o estilo CSS inline para a linha.
+    <button onclick="doSomething()" style="font-size:25px; background-color: grey; color: lightblue; border-radius:25px;">Click me</button>
 
-        <th>: Define uma célula de cabeçalho em uma tabela.
-        Atributos:
-        - width: Define a largura da célula de cabeçalho.
-
-        <td>: Define uma célula de dados em uma tabela.
-        -->
-        
-        <!-- 
-        <table>: Defines an HTML table to display tabular data.
-        Attributes:
-        - border: Sets the width of the table border.
-        - style: Sets the inline CSS style for the table.
-
-        <tr>: Defines a row in a table.
-        Attributes:
-        - align: Sets the alignment of the content of the row's cells.
-        - style: Sets the inline CSS style for the row.
-
-        <th>: Defines a header cell in a table.
-        Attributes:
-        - width: Sets the width of the header cell.
-
-        <td>: Defines a data cell in a table.
-        -->
-    <h3>Store Hours</h3>
-
-    <table border="1" style="background-color:black">
-        <tr align="center" style="background-color:lightblue">
-            <th width="100">Sunday</th>
-            <th width="100">Monday</th>
-            <th width="100">Tuesday</th>
-            <th width="100">Wednesday</th>
-            <th width="100">Thursday</th>
-            <th width="100">Friday</th>
-            <th width="100">Saturday</th>
-        </tr>
-        <tr align="center" style="background-color:aliceblue">
-            <td>Closed</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>10-2</td>
-        </tr>
-    </table>
-
+    <p id="greeting">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "Goodbye";
+            }
+        </script>
 </body>
 </html>
