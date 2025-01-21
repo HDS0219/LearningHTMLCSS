@@ -1,15 +1,7 @@
-#box1{
-    width: 200px;
-    height: 200px;
-    background-color: hwb(216 25% 0%);
-    position: sticky;
-    top: 0px;
-}
-#box2{
-    width: 100px;
-    height: 100px;
-    background-color: hwb(2 25% 0%);
-    position: absolute;
-    top: 50px;
-    left: 50px;
+body{
+    background-image: url(images/DMCbackground.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
 }
