@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>background images</title>
+    <title>Combinators</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1>Hello</h1>
+    <!--
+        combinators = explains the relationship
+                      between listed selectors
+                      = descendent
+                      > = child
+                      + = adjacent sibling
+                      ~ = general sibling
+    -->
+    <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, blanditiis hic quos voluptatem consectetur dolores? Sapiente, provident nam repellat molestias eveniet possimus accusamus aut officia beatae harum vel. Doloremque, deserunt!</p>
+    <p>This is #4</p>
+    <p>This is #5</p>
 
-    
 </body>
 </html>
