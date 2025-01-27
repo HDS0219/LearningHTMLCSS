@@ -1,27 +1,18 @@
-h1::first-letter{
-    font-size: 2em;
-    font-style: italic;
+.pagination{
+    text-align: center;
 }
-p::first-line{
-    background-color: yellow;
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
 }
-p::selection{
-    color: rgb(28, 216, 75);
-    background-color: darkgray;
+.pagination a.active{
+    background-color: rgb(39, 236, 39);
+    font-weight: bold;
+    border-radius: 5px;
 }
-#fruit li::before{
-}
-#apple::after{
-    content: "🍎";
-}
-#orange::after{
-    content: "🍊";
-}
-#banana::after{
-    content: "🍌";
-}
-#fruit li::marker{
-    content: "✓";
-    color: lime;
-    font-size: 1.2em;
+.pagination a:hover:not(.active){
+    background-color: hsl(0, 0%, 77%);
+    border-radius: 5px;
 }
