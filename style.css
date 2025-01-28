@@ -1,17 +1,31 @@
-.gallery{
-    display: inline-block;
-    border: 1px solid hsl(0, 0%, 60%);
-    margin: 5px;
-    width: 200px;
-}
-.gallery .description{
-    padding: 10px;
+.icons{
     text-align: center;
 }
-.gallery:hover{
-    border: 1px solid hsl(0, 0%, 20%);
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
 }
-.gallery img{
-    width: 100%;
-    height: auto;
+.fas.fa-home{
+    color: hsl(0, 0%, 67%)
+}
+.fas.fa-home:hover{
+    color: hsl(0, 0%, 76%)
+}
+.fab.fa-twitter{
+    color: hsl(203, 89%, 53%)
+}
+.fab.fa-twitter:hover{
+    color: hsl(203, 89%, 73%)
+}
+.fab.fa-youtube{
+    color: hsl(348, 97%, 39%)
+}
+.fab.fa-youtube:hover{
+    color: hsl(348, 97%, 49%)
+}
+.fab.fa-tiktok{
+    color: hsl(0, 0%, 10%)
+}
+.fab.fa-tiktok:hover{
+    color: hsl(0, 0%, 30%)
 }
